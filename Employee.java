@@ -1,4 +1,12 @@
-/** Create an Employee class that extends the
- *  Person class.  An employee has a jobTitle,
- *  and a salary.
- */
+public class Employee extends Person
+{
+    private int salary;
+    private String jobTitle;
+    
+    public Employee() 
+    {
+        super();
+        salary = 0;
+        jobTitle = "unemployed";
+    }
+}
