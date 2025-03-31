@@ -4,6 +4,7 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // TODO: Create objects and test code here.
+    SpecialtyCoffee latte1 = new SpecialtyCoffee("large", "mocha", "caramel");
+    System.out.println(latte1.toString());
   }
 }
