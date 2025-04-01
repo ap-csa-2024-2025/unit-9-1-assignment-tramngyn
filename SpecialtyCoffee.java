@@ -20,8 +20,20 @@ public class SpecialtyCoffee extends Coffee
         this.flavor = flavor;
     }
 
+    public double getPrice() 
+    {
+        return super.getPrice()*(1.5)
+    }
+    
     public String toString()
     {
         return super.toString() + " with " + flavor;
+    }
+
+    public void printPriceComparison()
+    {
+        System.out.println("A regular cofffee costs " + super.getPrice());
+        System.out.println("This coffee costs " + this.getPrice());
+        System.out.println("This coffee costs " + getPrice());
     }
 }
