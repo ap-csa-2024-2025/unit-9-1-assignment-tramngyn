@@ -10,8 +10,7 @@ public class SpecialtyCoffee extends Coffee
 
     public SpecialtyCoffee(String size, String type, String flavor)
     {
-        this.size = size;
-        this.type = type;
+        super();
         this.flavor = flavor;
     }
 
